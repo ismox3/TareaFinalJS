@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ismael RIvas</title>
+  <link rel="stylesheet" href="./assets/index.css">
+</head>
+
+<body>
+  <h1> Ismael Rivas V30036854</h1>
+  <div class="container">
+    <div class="flex">
+      <form id="carForm">
+        <label for="carName">Nombre:</label><br>
+        <input type="text" id="carName" required> <br><br>
+    
+        <label for="lastMaintenanceDate">Ultima fecha de mantenimiento:</label><br>
+        <input type="date" id="lastMaintenanceDate" required> <br><br>
+    
+        <label for="maintenanceInterval">intervalo de mantenimientos (en dias):</label><br>
+        <input type="number" id="maintenanceInterval" required> <br><br>
+    
+        <button type="submit">Agregar Carro</button> <br><br>
+      </form>
+    </div>
+    <div id="carList">
+    </div>
+    <br><br>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

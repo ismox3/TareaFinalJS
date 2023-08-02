@@ -1,0 +1,44 @@
+:root {
+    font-family: 'Courier New', Courier, monospace;
+    
+  }
+  h1 {
+    text-align: center;
+    text-decoration: dotted;
+    margin-top: 15%;
+  }
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  #carList {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    flex-wrap: wrap-reverse;
+  }
+  input {
+    width: 300px;
+    padding: 3px
+  }
+  button {
+    width: 310px;
+    padding: 7px
+  }
+  .child {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  strong {
+    text-align: center;
+  }
